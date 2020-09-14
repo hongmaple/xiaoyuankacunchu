@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3176141D-7A78-49AB-AD14-71C3C220A9D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>校园卡管理系统</RootNamespace>
+    <AssemblyName>校园卡管理系统</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form30.Designer.cs">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form40.Designer.cs">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delteacher.Designer.cs">
+      <DependentUpon>delteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xiugaixs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xiugaixs.Designer.cs">
+      <DependentUpon>xiugaixs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ggj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ggj.Designer.cs">
+      <DependentUpon>ggj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuxgmm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuxgmm.Designer.cs">
+      <DependentUpon>stuxgmm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stucxcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stucxcz.Designer.cs">
+      <DependentUpon>stucxcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuxf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuxf.Designer.cs">
+      <DependentUpon>stuxf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delca.Designer.cs">
+      <DependentUpon>delca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuje.Designer.cs">
+      <DependentUpon>stuje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selxf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selxf.Designer.cs">
+      <DependentUpon>selxf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selcz.Designer.cs">
+      <DependentUpon>selcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="glogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="glogin.Designer.cs">
+      <DependentUpon>glogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selxsxx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selxsxx.Designer.cs">
+      <DependentUpon>selxsxx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mangform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mangform.Designer.cs">
+      <DependentUpon>mangform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuform.Designer.cs">
+      <DependentUpon>stuform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form30.resx">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form40.resx">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delteacher.resx">
+      <DependentUpon>delteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xiugaixs.resx">
+      <DependentUpon>xiugaixs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ggj.resx">
+      <DependentUpon>ggj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuxgmm.resx">
+      <DependentUpon>stuxgmm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stucxcz.resx">
+      <DependentUpon>stucxcz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuxf.resx">
+      <DependentUpon>stuxf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delca.resx">
+      <DependentUpon>delca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuje.resx">
+      <DependentUpon>stuje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selxf.resx">
+      <DependentUpon>selxf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selcz.resx">
+      <DependentUpon>selcz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="glogin.resx">
+      <DependentUpon>glogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selxsxx.resx">
+      <DependentUpon>selxsxx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mangform.resx">
+      <DependentUpon>mangform.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuform.resx">
+      <DependentUpon>stuform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
